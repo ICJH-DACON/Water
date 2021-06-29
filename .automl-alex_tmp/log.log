@@ -1,0 +1,223 @@
+2021-06-29 13:41:20.833 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 13:41:20.839 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 13:41:21.444 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 13:41:39.154 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 13:41:39.168 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 13:41:39.461 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 13:42:33.073 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 13:42:33.085 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 13:42:33.395 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 13:42:39.106 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.6 sec
+2021-06-29 13:42:39.108 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1926.0
+2021-06-29 13:42:39.108 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 13:42:39.132 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 11.8446
+2021-06-29 13:42:39.133 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 13:42:39.135 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 13:42:39.137 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 13:42:39.138 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 13:42:39.139 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 35
+2021-06-29 13:42:39.140 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 13:42:39.142 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 13:42:39.143 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 13:42:39.146 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 13:42:39.148 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 13:42:39.150 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 13:42:39.151 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 13:42:39.153 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 13:48:31.385 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 1.5529 mean_absolute_error
+2021-06-29 13:48:31.386 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 13:48:58.659 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 1.5529 mean_absolute_error
+2021-06-29 13:53:39.174 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 13:53:39.185 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 13:53:39.501 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 13:53:44.885 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.5 sec
+2021-06-29 13:53:44.886 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 2043.0
+2021-06-29 13:53:44.887 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 13:53:44.906 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 71.5295
+2021-06-29 13:53:44.907 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 13:53:44.909 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 13:53:44.911 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 13:53:44.912 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 13:53:44.913 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 8
+2021-06-29 13:53:44.914 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 13:53:44.915 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 13:53:44.916 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 13:53:44.918 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 13:53:44.919 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 13:53:44.920 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 13:53:44.921 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 13:53:44.922 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 13:55:54.267 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 63.952 mean_absolute_error
+2021-06-29 13:55:54.269 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 13:55:55.478 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 63.952 mean_absolute_error
+2021-06-29 14:35:12.276 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 14:35:12.285 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 14:35:12.568 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 14:35:18.027 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.5 sec
+2021-06-29 14:35:18.029 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 2016.0
+2021-06-29 14:35:18.030 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 14:35:18.048 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 63.3409
+2021-06-29 14:35:18.049 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 14:35:18.050 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 14:35:18.051 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 14:35:18.053 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 14:35:18.055 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 8
+2021-06-29 14:35:18.056 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 14:35:18.057 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 14:35:18.059 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 14:35:18.060 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 14:35:18.062 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 14:35:18.064 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 14:35:18.065 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 14:35:18.067 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 14:43:32.457 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 52.6624 mean_absolute_error
+2021-06-29 14:43:32.458 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 14:43:38.118 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 52.6624 mean_absolute_error
+2021-06-29 14:50:45.219 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 14:50:45.233 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 14:50:45.516 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 14:50:51.264 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.6 sec
+2021-06-29 14:50:51.265 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1914.0
+2021-06-29 14:50:51.266 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 14:50:51.286 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 80.909
+2021-06-29 14:50:51.288 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 14:50:51.289 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 14:50:51.291 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 14:50:51.292 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 14:50:51.293 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 35
+2021-06-29 14:50:51.295 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 14:50:51.297 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 14:50:51.298 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 14:50:51.300 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 14:50:51.303 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 14:50:51.304 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 14:50:51.306 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 14:50:51.307 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 14:53:52.592 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 70.1301 mean_absolute_error
+2021-06-29 14:53:52.594 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 14:53:59.335 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 70.1301 mean_absolute_error
+2021-06-29 14:53:59.781 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 14:53:59.794 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 14:54:00.171 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 14:54:06.874 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.7 sec
+2021-06-29 14:54:06.875 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1641.0
+2021-06-29 14:54:06.877 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 14:54:06.900 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 55.8379
+2021-06-29 14:54:06.902 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 14:54:06.903 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 14:54:06.905 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 14:54:06.907 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 14:54:06.908 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 35
+2021-06-29 14:54:06.909 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 14:54:06.910 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 14:54:06.912 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 14:54:06.912 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 14:54:06.913 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 14:54:06.915 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 14:54:06.915 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 14:54:06.917 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 14:55:21.765 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 42.8638 mean_absolute_error
+2021-06-29 14:55:21.767 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 14:55:29.043 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 42.8638 mean_absolute_error
+2021-06-29 15:06:12.629 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 15:06:12.641 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 15:06:12.932 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 15:06:18.779 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.6 sec
+2021-06-29 15:06:18.780 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1881.0
+2021-06-29 15:06:18.781 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 15:06:18.802 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 10.6074
+2021-06-29 15:06:18.803 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 15:06:18.804 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 15:06:18.806 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 15:06:18.807 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 15:06:18.808 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 10
+2021-06-29 15:06:18.809 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 15:06:18.811 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 15:06:18.812 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 15:06:18.813 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 15:06:18.815 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 15:06:18.816 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 15:06:18.816 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 15:06:18.817 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 15:13:20.482 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 1.7628 mean_absolute_error
+2021-06-29 15:13:20.484 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 15:13:22.982 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 1.7628 mean_absolute_error
+2021-06-29 15:15:25.244 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 15:15:25.261 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 15:15:25.667 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 15:15:31.299 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.6 sec
+2021-06-29 15:15:31.301 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1953.0
+2021-06-29 15:15:31.302 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 15:15:31.322 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 71.5295
+2021-06-29 15:15:31.323 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 15:15:31.324 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 15:15:31.326 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 15:15:31.327 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 15:15:31.328 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 8
+2021-06-29 15:15:31.330 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 15:15:31.331 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 15:15:31.332 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 15:15:31.334 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 15:15:31.335 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 15:15:31.335 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 15:15:31.337 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 15:15:31.338 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 15:17:56.650 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 63.952 mean_absolute_error
+2021-06-29 15:17:56.652 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 15:17:58.132 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 63.952 mean_absolute_error
+2021-06-29 15:17:58.576 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 15:17:58.587 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 15:17:58.902 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 15:18:05.597 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.7 sec
+2021-06-29 15:18:05.597 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1643.0
+2021-06-29 15:18:05.598 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 15:18:05.620 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 63.3409
+2021-06-29 15:18:05.622 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 15:18:05.623 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 15:18:05.624 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 15:18:05.626 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 15:18:05.627 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 8
+2021-06-29 15:18:05.627 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 15:18:05.628 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 15:18:05.629 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 15:18:05.629 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 15:18:05.630 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 15:18:05.632 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 15:18:05.633 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 15:18:05.634 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 15:31:27.670 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 15:31:27.682 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 15:31:28.102 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 15:31:34.525 | INFO     | automl_alex.optimizer:opt:615 -  One iteration ~ 0.6 sec
+2021-06-29 15:31:34.526 | INFO     | automl_alex.optimizer:opt:618 -  Possible iters ~ 1712.0
+2021-06-29 15:31:34.527 | INFO     | automl_alex.optimizer:opt:625 - --------------------------------------------------
+2021-06-29 15:31:34.549 | INFO     | automl_alex.optimizer:opt:651 -   Pruned Threshold Score: 71.5295
+2021-06-29 15:31:34.551 | INFO     | automl_alex.optimizer:opt:652 - ##################################################
+2021-06-29 15:31:34.552 | INFO     | automl_alex.optimizer:opt:657 - > Step 2: Full opt with Threshold Score Pruner
+2021-06-29 15:31:34.554 | INFO     | automl_alex.optimizer:opt:658 - ##################################################
+2021-06-29 15:31:34.555 | INFO     | automl_alex.optimizer:_print_opt_parameters:255 - > Start optimization with the parameters:
+2021-06-29 15:31:34.557 | INFO     | automl_alex.optimizer:_print_opt_parameters:256 - CV_Folds = 8
+2021-06-29 15:31:34.558 | INFO     | automl_alex.optimizer:_print_opt_parameters:257 - Score_CV_Folds = 2
+2021-06-29 15:31:34.560 | INFO     | automl_alex.optimizer:_print_opt_parameters:258 - Feature_Selection = False
+2021-06-29 15:31:34.562 | INFO     | automl_alex.optimizer:_print_opt_parameters:259 - Opt_lvl = 3
+2021-06-29 15:31:34.563 | INFO     | automl_alex.optimizer:_print_opt_parameters:260 - Cold_start = 120
+2021-06-29 15:31:34.564 | INFO     | automl_alex.optimizer:_print_opt_parameters:261 - Early_stoping = 120
+2021-06-29 15:31:34.565 | INFO     | automl_alex.optimizer:_print_opt_parameters:262 - Metric = mean_absolute_error
+2021-06-29 15:31:34.566 | INFO     | automl_alex.optimizer:_print_opt_parameters:263 - Direction = minimize
+2021-06-29 15:31:34.567 | INFO     | automl_alex.optimizer:opt:660 - ##################################################
+2021-06-29 15:35:07.487 | INFO     | automl_alex.optimizer:opt:674 - 
+ EarlyStopping Exceeded: Best Score: 63.952 mean_absolute_error
+2021-06-29 15:35:07.489 | INFO     | automl_alex.optimizer:opt:682 - > Finish Opt!
+2021-06-29 15:35:09.321 | INFO     | automl_alex.optimizer:opt:689 - Best Score: 63.952 mean_absolute_error
+2021-06-29 15:35:09.880 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 15:35:09.892 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
+2021-06-29 15:35:10.272 | INFO     | automl_alex.optimizer:opt:600 - > Step 1: calc parameters and pruned score: get test 10 trials
+2021-06-29 15:36:28.364 | INFO     | automl_alex._base:opt:270 - regression optimize: minimize
+2021-06-29 15:36:28.375 | INFO     | automl_alex.optimizer:opt:557 - ##################################################
